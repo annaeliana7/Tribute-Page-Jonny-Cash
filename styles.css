@@ -1,5 +1,5 @@
 * {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: HelveticaÏ, Arial, sans-serif;
   padding: 0;
   margin: 0;
 }
@@ -8,29 +8,29 @@ body {
   background-image: linear-gradient(rgba(173, 165, 179, 0.5), rgba(173, 165, 179, 0.5));
 }
 
-h1 {
+#title {
   font-size: 50px;
   text-align: center;
   color: grey;
   margin: 20px;
 }
 
-h2 {
+#tribute-info {
   font-size: 30px;
   text-align: center;
   color: grey;
   margin: 20px;
 }
 
-.image {
+#image {
+  display: block;
   max-width:100%;
   height:auto;
   width: 50%;
   margin: 0 auto;
-  display: block;
 }
 
-#img-fig {
+#img-caption {
   text-align: center;
   font-size: 16px;
   color: white;
@@ -66,6 +66,6 @@ h2 {
   margin: 20px;
 }
 
-#link {
+#tribute-link {
   color: white;
 }
